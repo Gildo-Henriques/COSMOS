@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "EcoCharge",
+      "profile": "Startup",
+      "sector": "Energia Sustentável",
+      "founder": "Carla Mendes",
+      "funding_needed": "$80,000",
+      "feed": {
+        "events": [
+          {
+            "id": 202,
+            "title": "Investimento Sustentável",
+            "host": "Carlos Almeida",
+            "date": "2025-06-20",
+            "description": "Evento focado em investimentos em startups sustentáveis."
+          }
+        ],
+        "talents": [
+          {
+            "id": 302,
+            "name": "Ana Paula",
+            "skill": "Marketing Digital",
+            "experience": "3 anos",
+            "availability": "Tempo Integral"
+          }
+        ]
+      }
+    }
+  ]
+  

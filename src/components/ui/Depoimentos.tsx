@@ -4,7 +4,7 @@ export default function Depoimentos() {
     <section className="w-full relative overflow-hidden flex flex-col bg-[#080808] mt-20 lg:px-32 md:px-20 px-5 lg:py-20 py-10">
       <Image
         src="/depoimentos.svg"
-        className="lg:size-[500px] size-72 absolute -top-16 right-10"
+        className="lg:size-[500px] size-72 absolute -top-16 lg:right-10 -right-10"
         width={100}
         height={100}
         alt="depoimentos-logo"
