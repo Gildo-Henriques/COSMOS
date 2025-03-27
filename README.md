@@ -1,6 +1,6 @@
 # Cosmos – Plataforma de Startups e Investimentos
 
-![Cosmos Logo](./public/cosmos-head.svg)
+![Cosmos Logo](cosmos-head.svg | width=150)
 
 Cosmos é uma plataforma inovadora que conecta startups, investidores, talentos e empresas em busca de inovação. Atualmente, o projeto conta com um **feed de startups para investidores**, e futuras melhorias estão planejadas para expandir a plataforma.
 
