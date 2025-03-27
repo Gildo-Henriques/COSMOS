@@ -19,7 +19,7 @@ export default function NavbarHome() {
         <Link href="/" className="lg:flex hidden space-x-1 items-center">
         <Button>
         
-        <UserSvg />
+        <UserSvg size="size-6"/>
         <span>Criar Conta</span>
         
         </Button>

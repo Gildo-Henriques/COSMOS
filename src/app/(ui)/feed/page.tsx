@@ -43,7 +43,7 @@ export default function Page() {
             <>
               <h1 className="text-2xl">Bem-vindo, {investorData.name}</h1>
               <span className="flex items-center">
-                <BusinessLogoCrescimentoFinanceiro />
+                <BusinessLogoCrescimentoFinanceiro size="size-6"/>
                 <span>Conta de investidor</span>
               </span>
             </>

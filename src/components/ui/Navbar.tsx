@@ -23,7 +23,7 @@ export default function Navbar() {
         {href:"/eventos", label:"Eventos", Icon:EventosSvg},
     ]
   return (
-    <aside className="w-96 2xl:min-w-96 lg:min-w-72 h-screen flex flex-col justify-between lg:sticky -right-full fixed p-5 bg-[#0b0b0b] border-right top-0 lg:left-0">
+    <aside className="w-96 2xl:min-w-72 lg:min-w-52 h-screen flex flex-col justify-between lg:sticky -right-full fixed p-5 bg-[#0b0b0b] border-right top-0 lg:left-0">
      <div className="px-5">
      <LogoCOSMOS size={30} style={1} />
      </div>
@@ -32,7 +32,7 @@ export default function Navbar() {
             const isActive = pathname === href
             return (
                 <Link key={href} href={href} className={`flex ${isActive ? 'bg-[#181818]' : 'bg-transparent'}`} >
-          <Icon />
+          <Icon size="size-6" />
           <span>{label}</span>
         </Link>
             )
