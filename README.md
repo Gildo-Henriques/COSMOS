@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cosmos – Plataforma de Startups e Investimentos
 
-## Getting Started
+![Cosmos Logo](./public/cosmos-head.svg)
 
-First, run the development server:
+Cosmos é uma plataforma inovadora que conecta startups, investidores, talentos e empresas em busca de inovação. Atualmente, o projeto conta com um **feed de startups para investidores**, e futuras melhorias estão planejadas para expandir a plataforma.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 **Estrutura do Projeto**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **1. Página Inicial**
+- Apresenta o conceito da **Cosmos**, explicando seu funcionamento.
+- Um botão leva os usuários à plataforma.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **2. Plataforma (Feed de Startups)**
+- Exibe startups cadastradas com nome, descrição e setor.
+- Simulação de backend utilizando um **JSON** para listar as startups.
+- Página individual para cada startup, onde é possível visualizar mais detalhes sobre a equipe e investimentos.
+- O botão de investimento ainda **não está implementado**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔄 **Possíveis Melhorias Futuras**
+- Implementação de um **backend real** para gerenciar os dados dinamicamente.
+- Desenvolvimento das seções de **Eventos**, **Mensagens** e **Talentos**.
+- Sistema de investimentos com transações reais.
+- Melhorias na UI/UX para oferecer uma experiência ainda mais intuitiva.
+- Integração de notificações e interações entre usuários.
 
-## Learn More
+## 🚀 **Tecnologias Utilizadas**
+- **Next.js** (Frontend)
+- **TypeScript**
+- **Tailwind CSS** (Estilização)
+- **JSON** (Simulação de backend)
 
-To learn more about Next.js, take a look at the following resources:
+Este é apenas o começo da **Cosmos**. O projeto seguirá evoluindo para oferecer a melhor experiência para startups, investidores e talentos! 🌍✨
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
